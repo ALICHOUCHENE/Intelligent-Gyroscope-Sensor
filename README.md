@@ -19,7 +19,7 @@ The basic idea is to use the sensor data to capture differences in the vehicleâ€
 
 - SWD programming Interface.
 
-- SPI for serila communication.
+- SPI for serial communication.
 
 - USART for AT-commands mode in order to test the sensor before embedded it in the CAN bus.
 
