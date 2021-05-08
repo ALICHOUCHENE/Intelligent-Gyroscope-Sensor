@@ -137,7 +137,15 @@ Here is the BOM and posistion file needed to order from JLC PCB :
 
 
 
+# Downloads
 
+* [Board schematics](https://github.com/ALICHOUCHENE/Intelligent-Gyroscope-Sensor/blob/main/Schematics/Schematics.pdf)
+
+* [BOM](https://github.com/ALICHOUCHENE/Intelligent-Gyroscope-Sensor/blob/main/Assembly/BOM.xlsx)
+
+* [Position file](https://github.com/ALICHOUCHENE/Intelligent-Gyroscope-Sensor/blob/main/Assembly/Sensor-all-pos.xlsx)
+
+* [Gerber File](https://github.com/ALICHOUCHENE/Intelligent-Gyroscope-Sensor/blob/main/GERBER/GERBER.rar)
 
 
 
