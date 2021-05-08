@@ -41,7 +41,8 @@ The basic idea is to use the sensor data to capture differences in the vehicleâ€
 **Board View :**
 
 
-![alt text](https://github.com/ALICHOUCHENE/Intelligent-Gyroscope-Sensor/blob/main/PCB/3D.PNG)
+![alt text](https://github.com/ALICHOUCHENE/Intelligent-Gyroscope-Sensor/blob/main/Image/Front.PNG)
+![alt text](https://github.com/ALICHOUCHENE/Intelligent-Gyroscope-Sensor/blob/main/Image/Back.PNG)
 
 
 
