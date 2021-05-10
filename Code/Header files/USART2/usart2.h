@@ -14,11 +14,11 @@
 * initialising the USART2 peripheral by enabling the RCC and PA2 and PA3 alternate function.
 * no arguments required for this function
 
-* \ void USART2_SET_BAUD(uint16_t baude, uint8_t Fck);
+* \ void USART2_SET_BAUD(uint32_t baude, uint8_t Fck);
 * Setting the baude rate value 
 * arguments :
-* baude 					 : uint16_t parameter refer to the baude rate.
-* Fck		           : uint8_t the frequency of the mcu.
+* baude 					 : uint32_t parameter refer to the baude rate.
+* Fck		                                 : uint8_t the frequency of the mcu.
 
 * \ float USART2_AVAILABLE(void);
 * Check if the data in the receiver buffer is available.
@@ -70,7 +70,7 @@
 
 
 void USART2_INIT(void);
-void USART2_SET_BAUD(uint16_t baude, uint8_t Fck);
+void USART2_SET_BAUD(uint32_t baude, uint8_t Fck);
 float USART2_AVAILABLE(void);
 void USART2_CONFIG(char word_length, bool parity_control ,bool parity_selection );
 void USART2_TRANSMITTER_ENABLE(bool state );
@@ -86,7 +86,7 @@ GPIOA->CRL    |=0xA00;                                                          
 GPIOA->CRL    |=0x4000;                                                                    // Setting PA3 as alternate function	(USART2_RX)
 }	
 
-void USART2_SET_BAUD (uint16_t baud, uint8_t Fck)
+void USART2_SET_BAUD (uint32_t baud, uint8_t Fck)
 {
 	uint16_t x =0x0000;
 	x=Fck/(baud*16) & 0xFFFF;
