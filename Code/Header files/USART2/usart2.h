@@ -1,9 +1,11 @@
 #ifndef USART2
 #define USART2
-// library start
-#include "stm32f10x.h"                                                                              // Device header
+
+
+#include "stm32f10x.h"    // Device header                                                            
 #include <stdbool.h>
 #include <string.h>
+
 
 /*!
 ******************************************************************
