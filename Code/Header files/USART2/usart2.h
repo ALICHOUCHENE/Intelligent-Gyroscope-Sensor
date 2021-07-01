@@ -71,7 +71,7 @@
 
 void USART2_INIT(void);
 void USART2_SET_BAUD(uint32_t baude, uint8_t Fck);
-float USART2_AVAILABLE(void);
+bool USART2_AVAILABLE(void);
 void USART2_CONFIG(char word_length, bool parity_control ,bool parity_selection );
 void USART2_TRANSMITTER_ENABLE(bool state );
 void USART2_RECEIVER_ENABLE(bool state );
@@ -93,7 +93,7 @@ void USART2_SET_BAUD (uint32_t baud, uint8_t Fck)
 	USART2->BRR |=x;
 }
 
-float USART2_AVAILABLE(void)
+bool USART2_AVAILABLE(void)
 {
 	return ((USART2->CR1 & 0x20)==1); // check if the data is available
 }
